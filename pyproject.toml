@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "csaat2"
+version = "0.1.0"
+description = ""
+authors = ["thisura97 <tdinith481@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.1.5"
+whitenoise = "^5.2.0"
+gunicorn = "^20.0.4"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+pytest-cov = "^2.10.1"
+pytest-django = "^4.1.0"
+pytest-xdist = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -28,7 +28,8 @@ SECRET_KEY = '7+4u4usjlw&mr4629v$0l%79e&x%fb_x70-b6=38n3f(3e4d_q'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-   'csaat2.herokuapp.com'
+   'csaat2.herokuapp.com',
+   '127.0.0.1'
 ]
 
 
