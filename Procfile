@@ -1,2 +1,2 @@
-web: gunicorn SubProject1.wsgi --log-file -
+web: gunicorn MainProject.wsgi --log-file -
 manage.py migrate
