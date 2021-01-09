@@ -19,8 +19,7 @@ from SubProject1.views import SubProject1
 from SubProject2.views import SubProject2
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('SubProject1/',SubProject1),
-    path('SubProject2/',SubProject2),
-
+    path("admin/", admin.site.urls),
+    path("SubProject1/", SubProject1),
+    path("SubProject2/", SubProject2),
 ]
