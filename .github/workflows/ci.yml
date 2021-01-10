@@ -41,7 +41,7 @@ jobs:
       - name: Code Quality
         run: poetry run black . --check
 
-      - name: Test with pytest
-        env:
-          DJANGO_SETTINGS_MODULE: MainProject.settings
-        run: poetry run pytest --cov . -n 2
+     # - name: Test with pytest
+     #   env:
+     #     DJANGO_SETTINGS_MODULE: MainProject.settings
+     #   run: poetry run pytest --cov . -n 2
