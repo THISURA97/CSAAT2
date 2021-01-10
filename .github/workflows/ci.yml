@@ -38,8 +38,14 @@ jobs:
       - name: Code Quality
         run: poetry run black . --check
 
-      - name: Tox
+      - name: Tox install
+        run:
+          python -m pip install --upgrade pip
+          pip install tox tox-gh-actions
+
+      - name: Test with tox
         run: tox
+
      # - name: Test with pytest
      #   env:
      #     DJANGO_SETTINGS_MODULE: MainProject.settings
