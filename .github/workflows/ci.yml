@@ -24,7 +24,8 @@ jobs:
       - name: Test with tox
         run: tox
 
-     # - name: Test with pytest
-     #   env:
-     #     DJANGO_SETTINGS_MODULE: MainProject.settings
-     #   run: poetry run pytest --cov . -n 2
+      - name: Upload coverage reports to Codecov
+        run: |
+          codecov
+        env: # Or as an environment variable
+          super_secret: ${{ secrets.CODECOV_TOKEN }}
