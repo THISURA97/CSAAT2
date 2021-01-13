@@ -23,9 +23,3 @@ jobs:
 
       - name: Test with tox
         run: tox
-
-      - name: Upload coverage reports to Codecov
-        run: |
-          codecov
-        env: # Or as an environment variable
-          super_secret: ${{ secrets.CODECOV_TOKEN }}
