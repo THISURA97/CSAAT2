@@ -1,4 +1,19 @@
 {
     "python.pythonPath": "C:\\Python39\\python.exe",
-    "python.venvPath": "C:\\Users\\tdini\\AppData\\Local\\pypoetry\\Cache\\virtualenvs"
+    "python.venvPath": "C:\\Users\\tdini\\AppData\\Local\\pypoetry\\Cache\\virtualenvs",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "db",
+            "database": "test",
+            "username": "pma"
+        }
+    ]
 }
